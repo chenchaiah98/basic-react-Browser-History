@@ -1,0 +1,42 @@
+.history-time,
+.logo-url,
+.title,
+.domain-url,
+.button {
+  margin: 5px 15px;
+}
+.logo-url {
+  height: 28px;
+}
+.logo-url img {
+  height: 100%;
+}
+.domain-url a {
+  color: #64748b;
+  text-decoration: none;
+}
+.button-container {
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.title-container,
+.time-logo-container {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .title-container,
+  .time-logo-container {
+    display: block;
+  }
+  .title-container {
+    margin-top: 10px;
+  }
+}
